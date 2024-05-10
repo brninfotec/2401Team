@@ -2,18 +2,18 @@ import React from 'react'
 
 function CskPlayers() {
   return (
-    <div>
+    <div  style={{backgroundColor:"white"}}>
           <div className='bc'>
         <div className='main' >
         
       <h1 className='h1' style={{color:"yellow", position:"relative",left:"-330px"}}>Chennai Super Kings</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
-      <img src='./images/csklogo2.png' className='logo'></img>
+      <img src='./images/csklogo2.png' className='logo1'></img>
      
       <div className='info'>
-      <h3>Oweners: Chennai Super Kings Cricket Ltd</h3><hr></hr>
-      <h3>Coach: Stephen Fleming</h3><hr></hr>
-      <h3>Venue:M. A. Chidambaram Stadium </h3><hr></hr>
+      <h3>Oweners: Chennai Super Kings Cricket Ltd</h3><hr></hr><br></br>
+      <h3>Coach: Stephen Fleming</h3><hr></hr><br></br>
+      <h3>Venue:M. A. Chidambaram Stadium </h3><hr></hr><br></br>
       <h3>Captain:Ruturaj Gaikwad</h3>
       </div>
       </div>
@@ -21,7 +21,7 @@ function CskPlayers() {
       <hr></hr>/
       <div>
         <h2 className='session'>Session-2024</h2>
-        <h1 style={{textAlign:"justify"}}><u>Batters</u></h1>
+        <h1 style={{textAlign:"justify",color:"black"}}><u style={{color:"black"}}>Batters</u></h1>
         
         <div className='player'>
             <img className='player1' src='./images/rutu.png'></img><hr></hr>
@@ -65,7 +65,7 @@ function CskPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>All-Rounders</u></h1>
+        <h1 style={{textAlign:"justify",color:"black"}}><u style={{color:"black"}}>All-Rounders</u></h1>
         <div className='player'>
             <img className='player1' src='./images/jaddu.png'></img><hr></hr>
             <h2 className='name'>Ravinder Jadeja</h2>
@@ -93,7 +93,7 @@ function CskPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>Bowlers</u></h1>
+        <h1 style={{textAlign:"justify",color:'black'}}><u style={{color:"black"}}>Bowlers</u></h1>
         <div className='player'>
             <img className='player1' src='./images/gleeson.png'></img><hr></hr>
             <h2 className='name'>Richard Gleeson</h2>

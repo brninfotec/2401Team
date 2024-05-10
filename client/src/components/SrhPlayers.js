@@ -2,18 +2,18 @@ import React from 'react'
 
 function SrhPlayers() {
   return (
-    <div>
+    <div  style={{backgroundColor:"white"}}>
            <div className='bc'>
         <div className='main' >
         
         <h1 className='h1' style={{color:"orange", position:"relative",left:"-330px"}}>Sunrises Hyderabad</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
-      <img src='./images/srhlogo.png' className='logo'></img>
+      <img src='./images/srhlogo.png' className='logo1'></img>
      
       <div className='info'>
-      <h3>Oweners: SUN TV Network</h3><hr></hr>
-      <h3>Coach: Daniel Vettori</h3><hr></hr>
-      <h3>Venue:Rajiv Gandhi Intl. Cricket Stadium </h3><hr></hr>
+      <h3>Oweners: SUN TV Network</h3><hr></hr><br></br>
+      <h3>Coach: Daniel Vettori</h3><hr></hr><br></br>
+      <h3>Venue:Rajiv Gandhi Intl. Cricket Stadium </h3><hr></hr><br></br>
       <h3>Captain:Pat Cummins</h3>
       </div>
       </div>
@@ -21,7 +21,7 @@ function SrhPlayers() {
       <hr></hr>/
       <div>
         <h2 className='session'>Session-2024</h2>
-        <h1 style={{textAlign:"justify"}}><u>Batters</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>Batters</u></h1>
         
         <div className='player'>
             <img className='player1' src='./images/samad.png'></img><hr></hr>
@@ -65,7 +65,7 @@ function SrhPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>All-Rounders</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>All-Rounders</u></h1>
         <div className='player'>
             <img className='player1' src='./images/sunder.png'></img><hr></hr>
             <h2 className='name'>Washington sunder</h2>
@@ -93,7 +93,7 @@ function SrhPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>Bowlers</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>Bowlers</u></h1>
         <div className='player'>
             <img className='player1' src='./images/pat.png'></img><hr></hr>
             <h2 className='name'>Part cummins</h2>

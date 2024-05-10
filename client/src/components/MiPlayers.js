@@ -2,18 +2,18 @@ import React from 'react'
 
 function MiPlayers() {
   return (
-    <div>
+    <div  style={{backgroundColor:"white"}}>
            <div className='bc'>
         <div className='main' >
         
       <h1 className='h1' style={{color:"white", position:"relative",left:"-380px"}}>Mumbai Indians</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
-      <img src='./images/milogo.png' style={{position:"relative",left:"-440px",width:"230px"}} className='logo'></img>
+      <img src='./images/milogo.png' style={{position:"relative",left:"-440px",width:"230px"}} className='logo1'></img>
      
       <div className='info'>
-      <h3>Oweners: Indiawin Sports Pvt. Ltd</h3><hr></hr>
-      <h3>Coach: Mark Boucher</h3><hr></hr>
-      <h3>Venue:Mark Boucher </h3><hr></hr>
+      <h3>Oweners: Indiawin Sports Pvt. Ltd</h3><hr></hr><br></br>
+      <h3>Coach: Mark Boucher</h3><hr></hr><br></br>
+      <h3>Venue:Mark Boucher </h3><hr></hr><br></br>
       <h3>Captain:Hardik Pandya</h3>
       </div>
       </div>
@@ -21,7 +21,7 @@ function MiPlayers() {
       <hr></hr>/
       <div>
         <h2 className='session'>Session-2024</h2>
-        <h1 style={{textAlign:"justify"}}><u>Batters</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>Batters</u></h1>
         
         <div className='player'>
             <img className='player1' src='./images/rohit.png'></img><hr></hr>
@@ -65,7 +65,7 @@ function MiPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>All-Rounders</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>All-Rounders</u></h1>
         <div className='player'>
             <img className='player1' src='https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/54.png'></img><hr></hr>
             <h2 className='name'>Hardik Pandey</h2>
@@ -93,7 +93,7 @@ function MiPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>Bowlers</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>Bowlers</u></h1>
         <div className='player'>
             <img className='player1' src='https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/IPLHeadshot2024/801.png'></img><hr></hr>
             <h2 className='name'>Kwena Maphaka</h2>

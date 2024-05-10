@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 
 function RcbPlayers() {
   return (
-    <div>
+    <div style={{backgroundColor:"white"}}>
         <div className='bc'>
         <div className='main' >
         
       <h1 className='h1'>Royal Challengers Bengaluru</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
-      <img src='./images/rcb logo.png' className='logo'></img>
+      <img src='./images/rcb logo.png' className='logo1'></img>
      
       <div className='info'>
-      <h3>Oweners: United Spirits Limited (USL)</h3><hr></hr>
-      <h3>Coach: Andy Flower</h3><hr></hr>
-      <h3>Venue:M. Chinnaswamy Stadium </h3><hr></hr>
+      <h3>Oweners: United Spirits Limited (USL)</h3><hr></hr><br></br>
+      <h3>Coach: Andy Flower</h3><hr></hr><br></br>
+      <h3>Venue:M. Chinnaswamy Stadium </h3><hr></hr><br></br>
       <h3>Captain:Faf du Plessis</h3>
       </div>
       </div>
@@ -22,7 +22,7 @@ function RcbPlayers() {
       <hr></hr>/
       <div>
         <h2 className='session'>Session-2024</h2>
-        <h1 style={{textAlign:"justify"}}><u>Batters</u></h1>
+        <h1 style={{textAlign:"justify" }}><u style={{color:"black"}}>Batters</u></h1>
         
         <div className='player'>
             <img className='player1' src='./images/faf.png'></img><hr></hr>
@@ -62,11 +62,11 @@ function RcbPlayers() {
         <div className='player'>
             <img className='player1' src='./images/suyash.png'></img><hr></hr>
             <h2 className='name'>Prabhudessai</h2>
-            <h4 className='role'>Batter</h4>
+            <h4 className='role'style={{color:"black"}}>Batter</h4>
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>All-Rounders</u></h1>
+        <h1 style={{textAlign:"justify"}}><u style={{color:"black"}}>All-Rounders</u></h1>
         <div className='player'>
             <img className='player1' src='./images/maxi.png'></img><hr></hr>
             <h2 className='name'>Glane Maxwell</h2>
@@ -75,7 +75,7 @@ function RcbPlayers() {
         <div className='player'>
             <img className='player1' src='./images/lamron.png'></img><hr></hr>
             <h2 className='name'>Mahipal Lomror</h2>
-            <h4 className='role'>All-rounder</h4>
+            <h4 className='role'style={{color:"black"}}>All-rounder</h4>
         </div>
         <div className='player'>
             <img className='player1' src='./images/green.png'></img><hr></hr>
@@ -94,7 +94,7 @@ function RcbPlayers() {
         </div>
       </div>
       <div>
-        <h1 style={{textAlign:"justify"}}><u>Bowlers</u></h1>
+        <h1 style={{textAlign:"justify",color:"black"}}><u style={{color:"black"}}>Bowlers</u></h1>
         <div className='player'>
             <img className='player1' src='./images/joseph.png'></img><hr></hr>
             <h2 className='name'>Alzarri Joseph</h2>
@@ -139,10 +139,17 @@ function RcbPlayers() {
         <img style={{width:"250px"}} src='./images/star.png'></img>
 
       </div>
-      <Link to="/csk">csk</Link><br></br>
-      <Link to="/srh">srh</Link><br></br>
-      <Link to="/mi">mi</Link>
-     
+      <div className='links'>
+      <Link to="/cskplayers">csk</Link><br></br>
+      <Link to="/srhplayers">srh</Link><br></br>
+      <Link to="/miplayers">mi</Link>
+      <br></br>
+      <Link to="/csk">csk1</Link><br></br>
+      <Link to="/rcb">rcb1</Link><br></br>
+      <Link to="/srh">srh1</Link><br></br>
+      <Link to="/mi">mi1</Link>
+
+      </div>
     </div>
   )
 }
