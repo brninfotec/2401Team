@@ -198,20 +198,20 @@ body{
 
 
 @media screen and (max-width: 900px){
-  .container .heading{
+  /* .container .heading{
       top: 120vh;
       width: 100%;
       margin: 0;
-  }
+  } */
 
-  .container .image img{
+  /* .container .image img{
       margin: 0;
       margin-top: -30px;
       width: 650px;
       height: 400px;
-  }
+  } */
 
-  .container .background img{
+  /* .container .background img{
       position: absolute;
       width: 450px;
       margin-left: 12%;
@@ -220,8 +220,8 @@ body{
       z-index: -1;
       opacity: 0.4;
   }
-  
-  .list ol{
+   */
+  /* .list ol{
       display: flex;
       position: absolute;
       list-style: none;
@@ -235,6 +235,6 @@ body{
       right: 0;
       top: 100vh;
       list-style: none;
-  }
+  } */
 }
 
