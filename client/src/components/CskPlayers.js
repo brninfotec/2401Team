@@ -1,0 +1,145 @@
+import React from 'react'
+
+function CskPlayers() {
+  return (
+    <div>
+          <div className='bc'>
+        <div className='main' >
+        
+      <h1 className='h1' style={{color:"yellow", position:"relative",left:"-330px"}}>Chennai Super Kings</h1><br></br>
+      <h2 className='h2'>Official Website</h2><br></br>
+      <img src='./images/csklogo2.png' className='logo'></img>
+     
+      <div className='info'>
+      <h3>Oweners: Chennai Super Kings Cricket Ltd</h3><hr></hr>
+      <h3>Coach: Stephen Fleming</h3><hr></hr>
+      <h3>Venue:M. A. Chidambaram Stadium </h3><hr></hr>
+      <h3>Captain:Ruturaj Gaikwad</h3>
+      </div>
+      </div>
+      </div>
+      <hr></hr>/
+      <div>
+        <h2 className='session'>Session-2024</h2>
+        <h1 style={{textAlign:"justify"}}><u>Batters</u></h1>
+        
+        <div className='player'>
+            <img className='player1' src='./images/rutu.png'></img><hr></hr>
+            <h2 className='name'>Ruturaj Gaikward</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/convay.png'></img><hr></hr>
+            <h2 className='name'>Devon Convey</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/dhoni.png'></img><hr></hr>
+            <h2 className='name'>M.S. Dhoni</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/rahane.png'></img><hr></hr>
+            <h2 className='name'>Ajinkya Rahane</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/shaik.png'></img><hr></hr>
+            <h2 className='name'>Shaik Rasheed</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/rizvi.png'></img><hr></hr>
+            <h2 className='name'>Sameer Rizvi</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/dube.png'></img><hr></hr>
+            <h2 className='name'>Shivam Dube</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/rachin.png'></img><hr></hr>
+            <h2 className='name'>Rachin Ravindra</h2>
+            <h4 className='role'>Batter</h4>
+        </div>
+      </div>
+      <div>
+        <h1 style={{textAlign:"justify"}}><u>All-Rounders</u></h1>
+        <div className='player'>
+            <img className='player1' src='./images/jaddu.png'></img><hr></hr>
+            <h2 className='name'>Ravinder Jadeja</h2>
+            <h4 className='role'>All-rounder</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/santher.png'></img><hr></hr>
+            <h2 className='name'>Mitchel Santhner</h2>
+            <h4 className='role'>All-rounder</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/ali.png'></img><hr></hr>
+            <h2 className='name'>Moeen Ali</h2>
+            <h4 className='role'>All-rounder</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/mitchell.png'></img><hr></hr>
+            <h2 className='name'>Daryel Mitchel</h2>
+            <h4 className='role'>All-rounder</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/thakur.png'></img><hr></hr>
+            <h2 className='name'>Shardul Thakur</h2>
+            <h4 className='role'>All-rounder</h4>
+        </div>
+      </div>
+      <div>
+        <h1 style={{textAlign:"justify"}}><u>Bowlers</u></h1>
+        <div className='player'>
+            <img className='player1' src='./images/gleeson.png'></img><hr></hr>
+            <h2 className='name'>Richard Gleeson</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/chahar.png'></img><hr></hr>
+            <h2 className='name'>Deepak Chahar</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/theekshana.png'></img><hr></hr>
+            <h2 className='name'>Theekshana</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/mus.png'></img><hr></hr>
+            <h2 className='name'>Mjustafiuzar</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/jeet.png'></img><hr></hr>
+            <h2 className='name'>Simrajeet</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/pathirana.png'></img><hr></hr>
+            <h2 className='name'>Pathirana</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        <div className='player'>
+            <img className='player1' src='./images/desh.png'></img><hr></hr>
+            <h2 className='name'>Deshpandy</h2>
+            <h4 className='role'>Bowler</h4>
+        </div>
+        
+      </div><hr></hr>
+      <div className='advt'style={{backgroundColor:"yellow"}}>
+        <img style={{width:"250px"}} src='./images/tata.png'></img>
+        <img style={{width:"250px"}} src='./images/rupay.png'></img>
+        <img style={{width:"250px"}} src='./images/ceat.png'></img>
+        <img style={{width:"250px"}} src='./images/star.png'></img>
+
+      </div>
+    </div>
+  )
+}
+
+export default CskPlayers

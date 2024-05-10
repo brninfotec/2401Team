@@ -2,37 +2,84 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  display: inline-block;
+
+}
+.bc{
+  background-color: darkslateblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+ 
+  font-size: 2.7rem;
+  display: inline-block;
+  position: relative;
+  right: 250px;
+  top: 120px;
+}
+.h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+  background-color: orangered;
+  display: inline-block;
+  position: relative;
+ right: 435px;
+top: 90px;
+}
+.logo{
+  width: 180px;
+  position: relative;
+  right: 400px;
+  bottom: 140px;
+}
+.info{
+  color: aliceblue;
+  text-align: justify;
+  border: 2px solid gray;
+  display: inline-block;
+padding-left: 30px;
+padding-right: 30px;
+
+position: relative;
+  left: 200px;
+  bottom: 100px;
+}
+.session{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 3px;
+  position: relative;
+  left: 600px;
+  top: 90px;
 }
 
-.App-link {
-  color: #61dafb;
+.player{
+  display: inline-block;
+ 
+  align-items: start;
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 240px;
+  height: 320px;
+  margin: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.player1{
+  width: 100%;
+}
+.name{
+  position: relative;
+  bottom: 20px;
+}
+.role{
+  position: relative;
+  bottom: 40px;
+}
+.advt{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
 }
