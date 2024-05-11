@@ -27,9 +27,9 @@ function Csk() {
    <div className="navbar">
      <ul>
        <li>Home</li>
-       <li>Team</li>
-       <li>Players</li>
-       <li>About</li>
+       <Link to="/csk"><li>Team</li></Link>
+       <Link to="/cskplayers"><li>Players</li></Link>
+       <Link to="/cskabout"><li>About</li></Link>
      </ul>
    </div>
    <div className="emptyCsk">

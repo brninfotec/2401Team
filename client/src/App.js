@@ -12,6 +12,10 @@ import Rcb from './components/Rcb';
 import Csk from './components/Csk';
 import Mi from './components/Mi';
 import Srh from './components/Srh';
+import RcbAbout from './components/RcbAbout';
+import CskAbout from './components/CskAbout';
+import MiAbout from './components/MiAbout';
+import SrhAbout from './components/SrhAbout';
 
 function App() {
   return (
@@ -28,6 +32,11 @@ function App() {
       <Route path='/csk' element={<Csk/>}></Route>
       <Route path='/mi' element={<Mi/>}></Route>
       <Route path='/srh' element={<Srh/>}></Route>
+      
+      <Route path='/rcbabout' element={<RcbAbout/>}></Route>
+      <Route path='/cskabout' element={<CskAbout/>}></Route>
+      <Route path='/miabout' element={<MiAbout/>}></Route>
+      <Route path='/srhabout' element={<SrhAbout/>}></Route>
 
    </Routes>
    </BrowserRouter>

@@ -28,9 +28,9 @@ function Mi() {
   <div className="navbar">
     <ul>
       <li>Home</li>
-      <li>Team</li>
-      <li>Players</li>
-      <li>About</li>
+      <Link to="/mi"><li>Team</li></Link>
+      <Link to="/miplayers"><li>Players</li></Link>
+      <Link to="/miabout"><li>About</li></Link>
     </ul>
   </div>
   <div class="emptyMi">
