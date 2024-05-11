@@ -1,4 +1,106 @@
-*{
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.main{
+  display: inline-block;
+
+}
+.bc{
+  background-color: darkslateblue;
+}
+.navbar2{
+  padding: 15px 25px;
+  color: black;
+  margin: 1%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  /* background-color: burlywood; */
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none;
+
+}
+
+
+.h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+ 
+  font-size: 2.7rem;
+  display: inline-block;
+  position: relative;
+  right: 250px;
+  top: 80px;
+}
+.h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: orangered;
+  display: inline-block;
+  position: relative;
+ right: 425px;
+top: 90px;
+}
+.logo1{
+  width: 180px;
+  position: relative;
+  right: 400px;
+  bottom: 30px;
+}
+.info{
+  color: aliceblue;
+  text-align: justify;
+  border: 2px solid gray;
+  display: inline-block;
+padding: 10px;
+position: relative;
+  left: 200px;
+  bottom: 60px;
+}
+.session{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 3px;
+  position: relative;
+  left: 600px;
+  /* top: 90px; */
+  color: black;
+}
+
+.player{
+  display: inline-block;
+ 
+  align-items: start;
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 240px;
+  height: 320px;
+  margin: 20px;
+}
+.player1{
+  width: 100%;
+}
+.name{
+  /* position: relative;
+  bottom: 20px; */
+  color: black;
+}
+.role{
+  /* position: relative;
+  bottom: 40px; */
+  color: black;
+}
+.advt{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+}
+
+/* ram code */
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,14 +121,14 @@ body{
   width: 150px;
   height: 100px;
   position: relative;
-  left: 6%;
+  left: -38%;
 }
 
 
 .container .background .img2{
   position: absolute;
   width: 350px;
-  margin-left: 12%;
+  margin-left: -35%;
   top: 25%;
   height: 75vh;
   opacity: 0.4;
@@ -41,6 +143,7 @@ body{
   min-height: 65vh;
   margin-left: 100px;
   top: 30%;
+  text-align: justify;
 }
 .container .heading .head{
   padding-bottom: 15px;
@@ -71,12 +174,8 @@ body{
 }
 
 .container .image .img3{
-  margin-left: 50%;
   position: relative;
-  width:50%;
-  height: 50%;
-  /* border-radius: 300px; */
--webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+ -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
 }
 
 .container .navbar ul{
@@ -91,8 +190,7 @@ body{
 .container .navbar ul li{
   padding: 40px;
   margin: 3%;
-  /* border: 50%;
-  border: 0.1px solid black; */
+
 
 
 }
