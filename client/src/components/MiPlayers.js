@@ -7,6 +7,9 @@ function MiPlayers() {
     <div  style={{backgroundColor:"white"}}>
            <div className='bc'>
         <div className='main' >
+        <Link className='navbar2' to=""style={{color:"black" ,position:"relative",right:"580px"}}>Home</Link>
+        <Link className='navbar2'  to="/Mi" style={{color:"black",position:"relative",right:"580px"}}>Back</Link>
+      <Link className='navbar2'  to="/MiAbout" style={{color:"black",position:"relative",right:"580px"}}>About</Link>
         
       <h1 className='h1' style={{color:"white", position:"relative",left:"-380px"}}>Mumbai Indians</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
@@ -19,14 +22,14 @@ function MiPlayers() {
       <h3>Captain:Hardik Pandya</h3>
       </div>
       <div className='links'>
-      <Link className='navbar2' to="/"style={{color:"black"}}>Rcb</Link>
+      {/* <Link className='navbar2' to="/"style={{color:"black"}}>Rcb</Link>
       <Link className='navbar2'  to="/cskplayers" style={{color:"black"}}>csk</Link>
       <Link className='navbar2'  to="/srhplayers" style={{color:"black"}}>srh</Link>
       <Link className='navbar2'  to="/miplayers"  style={{color:"black"}}>mi</Link>
       <Link className='navbar2' to="/rcb" style={{color:"black"}}>rcb1</Link>
       <Link className='navbar2' to="/csk" style={{color:"black"}}>csk1</Link>
       <Link className='navbar2' to="/srh" style={{color:"black"}}>srh1</Link>
-      <Link className='navbar2' to="/mi"  style={{color:"black"}}>mi1</Link>
+      <Link className='navbar2' to="/mi"  style={{color:"black"}}>mi1</Link> */}
 
       </div>
       </div>

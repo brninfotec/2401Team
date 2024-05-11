@@ -14,7 +14,7 @@ function Mi() {
   </div>
   <div className="heading">
     <h1 className="head" style={{color:'dodgerblue'}}>Mumbai Indians</h1>
-    <p className="para">    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nam nesciunt cum error officia, perferendis laborum. Sunt aperiam sit, tempore voluptatem assumenda quam nam architecto consectetur veniam natus veritatis corrupti quod minima quo. Atque porro corrupti praesentium culpa tempore? Ipsam.</p>
+    <p className="para">    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nam nesciunt cum error officia, perferendis laborum. Sunt aperiam sit, tempore voluptatem assumenda quam nam architecto consectetur veniam natus veritatis corrupti quod minima quo. Atque porro corrupti praesentium culpa tempore? Ipsam. Atque porro corrupti praesentium culpa tempore? Ipsam.</p>
    <Link to='https://www.iplt20.com/videos/highlights'><button className='btn1'>WATCH NOW</button></Link> <br/> <br/>
    <Navigation/>
 
@@ -27,10 +27,10 @@ function Mi() {
   </div>
   <div className="navbar">
     <ul>
-      <li>Home</li>
-      <Link to="/mi"><li>Team</li></Link>
-      <Link to="/miplayers"><li>Players</li></Link>
-      <Link to="/miabout"><li>About</li></Link>
+    <Link to=""className='pagelink'><li>Home</li></Link>
+      <Link className='pagelink' to="/mi"><li>Team</li></Link>
+      <Link className='pagelink' to="/miplayers"><li>Players</li></Link>
+      <Link className='pagelink' to="/miabout"><li>About</li></Link>
     </ul>
   </div>
   <div class="emptyMi">

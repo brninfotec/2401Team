@@ -11,15 +11,16 @@
 .bc{
   background-color: darkslateblue;
 }
-.navbar2{
+.navbar1{
   padding: 15px 25px;
   color: black;
   margin: 1%;
   font-size: 1.2rem;
   font-weight: bold;
-  /* background-color: burlywood; */
+  background-color: burlywood;
   border-radius: 5px;
   position: relative;
+
   text-decoration: none;
 
 }
@@ -100,6 +101,19 @@ position: relative;
 }
 
 /* ram code */
+
+
+.pagelink{
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+
+
  *{
   margin: 0;
   padding: 0;
@@ -239,7 +253,7 @@ font-weight: bold;
   display: inline-block;
   border-radius: 5px;
   position: relative;
-  left: 10%;
+  right: 70%;
   text-decoration: none;
 
 }
