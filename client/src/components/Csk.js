@@ -26,10 +26,10 @@ function Csk() {
    </div>
    <div className="navbar">
      <ul>
-       <li>Home</li>
-       <Link to="/csk"><li>Team</li></Link>
-       <Link to="/cskplayers"><li>Players</li></Link>
-       <Link to="/cskabout"><li>About</li></Link>
+     <Link className='pagelink' to=""><li>Home</li></Link>
+       <Link className='pagelink' to="/csk"><li>Team</li></Link>
+       <Link className='pagelink' to="/cskplayers"><li>Players</li></Link>
+       <Link className='pagelink' to="/cskabout"><li>About</li></Link>
      </ul>
    </div>
    <div className="emptyCsk">

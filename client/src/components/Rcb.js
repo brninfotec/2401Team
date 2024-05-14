@@ -26,10 +26,10 @@ function Rcb() {
         </div>
         <div className="navbar">
           <ul>
-           <li>Home</li>
-            <Link to="/rcb"><li>Team</li></Link>
-           <Link to="/"> <li>Players</li></Link>
-           <Link to="/rcbabout"> <li>About</li></Link>
+          <Link className='pagelink' to=""><li>Home</li></Link>
+            <Link className='pagelink' to="/rcb"><li>Team</li></Link>
+           <Link className='pagelink' to="/"> <li>Players</li></Link>
+           <Link className='pagelink' to="/rcbabout"> <li>About</li></Link>
           </ul>
         </div>
         <div className="empty">
