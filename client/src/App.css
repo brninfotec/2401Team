@@ -33,7 +33,7 @@
   font-size: 2.7rem;
   display: inline-block;
   position: relative;
-  right: 250px;
+  right: 33%;
   top: 80px;
 }
 .h2{
@@ -42,14 +42,14 @@
   background-color: orangered;
   display: inline-block;
   position: relative;
- right: 425px;
+ right:55%;
 top: 90px;
 }
 .logo1{
-  width: 180px;
+  width: 25%;
   position: relative;
-  right: 400px;
-  bottom: 30px;
+  right: 50%;
+  bottom: 40px;
 }
 .info{
   color: aliceblue;
@@ -58,7 +58,7 @@ top: 90px;
   display: inline-block;
 padding: 10px;
 position: relative;
-  left: 200px;
+  left: 30.5%;
   bottom: 60px;
 }
 .session{
@@ -66,7 +66,7 @@ position: relative;
   border: 1px solid black;
   padding: 3px;
   position: relative;
-  left: 600px;
+  left: 40%;
   /* top: 90px; */
   color: black;
 }
@@ -244,14 +244,11 @@ font-weight: bold;
 }
 
 .navbar2{
-  padding: 15px 25px;
-  color: black;
+  padding: 5px 25px;
   margin: 1%;
   font-size: 1.2rem;
   font-weight: bold;
-  background-color: burlywood;
   display: inline-block;
-  border-radius: 5px;
   position: relative;
   right: 70%;
   text-decoration: none;

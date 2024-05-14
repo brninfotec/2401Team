@@ -7,9 +7,7 @@ function RcbPlayers() {
     <div style={{backgroundColor:"white"}}>
         <div className='bc'>
         <div className='main' >
-        <Link className='navbar2' to=""style={{color:"black"}}>Home</Link>
-        <Link className='navbar2'  to="/Rcb" style={{color:"black"}}>Back</Link>
-      <Link className='navbar2'  to="/RcbAbout" style={{color:"black"}}>About</Link>
+
         
       <h1 className='h1'>Royal Challengers Bengaluru</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
@@ -20,15 +18,11 @@ function RcbPlayers() {
       <h3>Coach: Andy Flower</h3><hr></hr><br></br>
       <h3>Venue:M. Chinnaswamy Stadium </h3><hr></hr><br></br>
       <h3>Captain:Faf du Plessis</h3>
+      <Link className='navbar2' to=""style={{color:"white",right:"4%",top:'70px'}}>Home</Link>
+        <Link className='navbar2'  to="/Rcb" style={{color:"white",right:"4%",top:"70px"}}>Back</Link>
+      <Link className='navbar2'  to="/RcbAbout" style={{color:"white",right:"4%",top:"70px"}}>About</Link>
       </div>
       <div className='links'>
- 
-    
-      {/* <Link className='navbar2'  to="/miplayers"  style={{color:"black"}}>mi</Link>
-      <Link className='navbar2' to="/rcb" style={{color:"black"}}>rcb1</Link>
-      <Link className='navbar2' to="/csk" style={{color:"black"}}>csk1</Link>
-      <Link className='navbar2' to="/srh" style={{color:"black"}}>srh1</Link>
-      <Link className='navbar2' to="/mi"  style={{color:"black"}}>mi1</Link> */}
 
       </div>
       

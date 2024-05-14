@@ -14,7 +14,7 @@ function RcbAbout() {
     
          
         <div className='headingAbout'>
-        <Link className='navbar2'  to="/Rcb" style={{color:"black",position:"relative", right:"700px",top:'20px'}}>Back</Link>
+        <Link className='navbar2'  to="/Rcb" style={{color:"black",position:"relative", right:"43%",top:'20px'}}>Back</Link>
        
          <h2 className="headAbout"> Royal Challengers Bangalore (RCB)</h2>
       <p className='paraAbout'>Welcome to the official page of Royal Challengers Bangalore (RCB)! We are one of the most exciting teams in the IPL, known for our explosive batting lineup and passionate fan base.</p>

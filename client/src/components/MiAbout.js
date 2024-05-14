@@ -7,7 +7,7 @@ function MiAbout() {
     <div style={{backgroundColor:"lightblue", width:"100%", height:"100%", marginTop:"-2%"}}>
   <div className='container'>
         <div className='headingAbout'>
-        <Link className='navbar2'  to="/Mi" style={{color:"black",position:"relative", right:"700px",top:'20px'}}>Back</Link>   
+        <Link className='navbar2'  to="/Mi" style={{color:"black",position:"relative", right:"43%",top:'20px'}}>Back</Link>   
          <h2 className='headAbout'> Mumbai Indians (MI)</h2>
       <p className='paraAbout'>Welcome to the official page of Mumbai Indians (MI)! We are the most successful team in the IPL, having won the title multiple times.</p>
       <p className='paraAbout'>Established in 2008, MI is known for its strong team spirit and ability to perform under pressure. With a blend of experienced players and young talent, we aim to continue our legacy of success in the IPL.</p>

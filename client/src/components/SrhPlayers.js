@@ -7,9 +7,6 @@ function SrhPlayers() {
     <div  style={{backgroundColor:"white"}}>
            <div className='bc'>
         <div className='main' >
-        <Link className='navbar2' to=""style={{color:"black" ,position:"relative",right:"580px"}}>Home</Link>
-        <Link className='navbar2'  to="/Srh" style={{color:"black",position:"relative",right:"580px"}}>Back</Link>
-      <Link className='navbar2'  to="/SrhAbout" style={{color:"black",position:"relative",right:"580px"}}>About</Link>
         
         <h1 className='h1' style={{color:"orange", position:"relative",left:"-330px"}}>Sunrises Hyderabad</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
@@ -20,6 +17,9 @@ function SrhPlayers() {
       <h3>Coach: Daniel Vettori</h3><hr></hr><br></br>
       <h3>Venue:Rajiv Gandhi Intl. Cricket Stadium </h3><hr></hr><br></br>
       <h3>Captain:Pat Cummins</h3>
+      <Link className='navbar2' to=""style={{color:"white",right:"4%",top:'70px'}}>Home</Link>
+        <Link className='navbar2'  to="/srh" style={{color:"white",right:"4%",top:"70px"}}>Back</Link>
+      <Link className='navbar2'  to="/srhAbout" style={{color:"white",right:"4%",top:"70px"}}>About</Link>
       </div>
       <div className='links'>
       {/* <Link className='navbar2' to="/"style={{color:"black"}}>Rcb</Link>

@@ -7,20 +7,23 @@ function MiPlayers() {
     <div  style={{backgroundColor:"white"}}>
            <div className='bc'>
         <div className='main' >
-        <Link className='navbar2' to=""style={{color:"black" ,position:"relative",right:"580px"}}>Home</Link>
-        <Link className='navbar2'  to="/Mi" style={{color:"black",position:"relative",right:"580px"}}>Back</Link>
-      <Link className='navbar2'  to="/MiAbout" style={{color:"black",position:"relative",right:"580px"}}>About</Link>
+     
         
-      <h1 className='h1' style={{color:"white", position:"relative",left:"-380px"}}>Mumbai Indians</h1><br></br>
+      <h1 className='h1' style={{color:"white", position:"relative",left:"-55.75%"}}>Mumbai Indians</h1><br></br>
       <h2 className='h2'>Official Website</h2><br></br>
-      <img src='./images/milogo.png' style={{position:"relative",left:"-440px",width:"230px"}} className='logo1'></img>
+      <img src='./images/milogo.png' style={{position:"relative",right:"59.24%",bottom:'50px',width:"230px"}} className='logo1'></img>
      
       <div className='info'>
-      <h3>Oweners: Indiawin Sports Pvt. Ltd</h3><hr></hr><br></br>
+      <h3>Oweners: Indiawin Sports Private limited.... Ltd</h3><hr></hr><br></br>
       <h3>Coach: Mark Boucher</h3><hr></hr><br></br>
       <h3>Venue:Mark Boucher </h3><hr></hr><br></br>
       <h3>Captain:Hardik Pandya</h3>
+      <Link className='navbar2' to=""style={{color:"white" ,position:"relative",right:"4%",top:'70px'}}>Home</Link>
+        <Link className='navbar2'  to="/Mi" style={{color:"white",position:"relative",right:"4%",top:'70px'}}>Back</Link>
+        <Link className='navbar2'  to="/MiAbout" style={{color:"white",position:"relative",right:"4%",top:'70px'}}>About</Link>
       </div>
+
+    
       <div className='links'>
       {/* <Link className='navbar2' to="/"style={{color:"black"}}>Rcb</Link>
       <Link className='navbar2'  to="/cskplayers" style={{color:"black"}}>csk</Link>
