@@ -41,11 +41,7 @@ function App() {
    </Routes>
    </BrowserRouter>
 
-      {/* <BrowserRouter>
-      <Routes>
       
-      </Routes>
-      </BrowserRouter> */}
       
 
     </div>
