@@ -17,7 +17,7 @@ function RcbAbout() {
     
          
         <div className='headingAbout'>
-        <Link className='navbar2'  to="/Rcb" style={{color:"black",position:"relative", right:"43%",top:'20px'}}>Back</Link>
+        <Link className='navbar2'  to="/Rcb" style={{color:"black",backgroundColor:'red',position:"relative", right:"43%",bottom:'70px'}}>Back</Link>
        
          <h2 className="headAbout"> Royal Challengers Bangalore (RCB)</h2>
 

@@ -5,13 +5,13 @@
 }
 
 .main{
-  display: inline-block;
+  display: flex;
+
 
 }
 .bc{
   background-color: darkslateblue;
-}
-.navbar1{
+} .navbar1{
   padding: 15px 25px;
   color: black;
   margin: 1%;
@@ -27,39 +27,43 @@
 
 
 .h1{
+  display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: red;
  
   font-size: 2.7rem;
-  display: inline-block;
-  position: relative;
-  right: 33%;
-  top: 80px;
+  /* display: inline-block;  */
+   position: relative;
+  right: -18%;
+  top: 80px; 
 }
 .h2{
+  display: flex;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background-color: orangered;
-  display: inline-block;
+  /* background-color: orangered; */
+ 
   position: relative;
- right:55%;
-top: 90px;
+ right:18%;
+top: 130px;
 }
 .logo1{
-  width: 25%;
+  display: flex;
+  width: 12%;
   position: relative;
-  right: 50%;
-  bottom: 40px;
+  right: 40%;
+  
 }
 .info{
   color: aliceblue;
   text-align: justify;
   border: 2px solid gray;
-  display: inline-block;
+  /* display: inline-block; */
 padding: 10px;
 position: relative;
-  left: 30.5%;
-  bottom: 60px;
+left: 4%;
+  
+ 
 }
 .session{
   display: inline-block;
@@ -246,6 +250,7 @@ font-weight: bold;
 }
 
 .navbar2{
+  display: flex;
   padding: 5px 25px;
   margin: 1%;
   font-size: 1.2rem;

@@ -9,8 +9,8 @@ function CskPlayers() {
         <div className='main' >
      
         
-      <h1 className='h1' style={{color:"yellow", position:"relative",left:'-42%'}}>Chennai Super Kings</h1><br></br>
-      <h2 className='h2'>Official Website</h2><br></br>
+      <h1 className='h1' style={{color:"yellow", position:"relative",left:'10%'}}>Chennai Super Kings</h1><br></br>
+      <h2 className='h2'  style={{ position:"relative",left:"-15%"}}>Official Website</h2><br></br>
       <img src='./images/csklogo2.png' className='logo1'></img>
      
       <div className='info'>
@@ -18,9 +18,9 @@ function CskPlayers() {
       <h3>Coach: Stephen Fleming</h3><hr></hr><br></br>
       <h3>Venue:M. A. Chidambaram Stadium </h3><hr></hr><br></br>
       <h3>Captain:Ruturaj Gaikwad</h3>
-      <Link className='navbar2' to=""style={{color:"white" ,position:"relative",right:"10px",top:'75px'}}>Home</Link>
-        <Link className='navbar2'  to="/Csk" style={{color:"white",position:"relative",right:"10px",top:'75px'}}>Back</Link>
-      <Link className='navbar2'  to="/CskAbout" style={{color:"white",position:"relative",right:"10px",top:'75px'}}>About</Link>
+      <Link className='navbar2' to=""style={{color:"black" ,position:"relative",right:"10px",top:'40px'}}>Home</Link>
+        <Link className='navbar2'  to="/Csk" style={{color:"black",position:"relative",right:"10px",top:'40px'}}>Back</Link>
+      <Link className='navbar2'  to="/CskAbout" style={{color:"black",position:"relative",right:"10px",top:'40px'}}>About</Link>
       </div>
       
       <div className='links'>

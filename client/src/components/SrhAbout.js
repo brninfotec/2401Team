@@ -7,7 +7,7 @@ function SrhAbout() {
     <div style={{backgroundColor:"lightblue", width:"100%", height:"100%", marginTop:"-2%"}}>
     <div className='container'>
     <div className='headingAbout'>
-    <Link className='navbar2'  to="/Srh" style={{color:"black",position:"relative", right:"43%",top:'20px'}}>Back</Link>  
+    <Link className='navbar2'  to="/Srh" style={{color:"black",backgroundColor:'red',position:"relative", right:"43%",top:'20px'}}>Back</Link>  
            <h2 className='headAbout'> Sunrisers Hyderabad (SRH)</h2>
       <p className='paraAbout'>Welcome to the official page of Sunrisers Hyderabad (SRH)! We are a team known for our disciplined approach to cricket and ability to perform under pressure.</p>
       <p className='paraAbout'>Established in 2012, SRH has quickly made its mark in the IPL with our strong bowling attack and dynamic batting lineup. With a focus on teamwork and determination, we aim to achieve success in every season.</p>
