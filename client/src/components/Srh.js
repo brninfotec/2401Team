@@ -14,7 +14,7 @@ function Srh() {
    </div>
    <div className="heading">
      <h1 className="head" style={{color:'orangered'}}>Sunrisers Hyderabad</h1>
-     <p className="para">    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nam nesciunt cum error officia, perferendis laborum. Sunt aperiam sit, tempore voluptatem assumenda quam nam architecto consectetur veniam natus veritatis corrupti quod minima quo. Atque porro corrupti praesentium culpa tempore? Ipsam.</p>
+     <p className="para">    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nam nesciunt cum error officia, perferendis laborum. Sunt aperiam sit, tempore voluptatem assumenda quam nam architecto consectetur veniam natus veritatis corrupti quod minima quo. Atque porro corrupti praesentium culpa tempore? Ipsam.  Atque porro corrupti praesentium culpa tempore? Ipsam.</p>
      <Link to='https://www.iplt20.com/videos/highlights'><button className='btn1'>WATCH NOW</button></Link> <br/> <br/>
     <Navigation/>
     </div>
@@ -25,10 +25,10 @@ function Srh() {
    </div>
    <div className="navbar">
      <ul>
-       <li>Home</li>
-       <li>Team</li>
-       <li>Players</li>
-       <li>About</li>
+     <Link className='pagelink' to="/srh"> <li>Home</li></Link>
+      <Link className='pagelink' to="/srh"> <li>Team</li></Link>
+       <Link className='pagelink' to="/srhplayers"><li>Players</li></Link>
+      <Link className='pagelink' to="/srhabout"> <li>About</li></Link>
      </ul>
    </div>
    <div className="emptySrh">

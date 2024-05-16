@@ -1,4 +1,126 @@
-*{
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.main{
+  display: flex;
+
+
+}
+.bc{
+  background-color: darkslateblue;
+} .navbar1{
+  padding: 15px 25px;
+  color: black;
+  margin: 1%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: burlywood;
+  border-radius: 5px;
+  position: relative;
+
+  text-decoration: none;
+
+}
+
+
+.h1{
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+ 
+  font-size: 2.7rem;
+  /* display: inline-block;  */
+   position: relative;
+  right: -18%;
+  top: 80px; 
+}
+.h2{
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  /* background-color: orangered; */
+ 
+  position: relative;
+ right:18%;
+top: 130px;
+}
+.logo1{
+  display: flex;
+  width: 12%;
+  position: relative;
+  right: 40%;
+  
+}
+.info{
+  color: aliceblue;
+  text-align: justify;
+  border: 2px solid gray;
+  /* display: inline-block; */
+padding: 10px;
+position: relative;
+left: 4%;
+  
+ 
+}
+.session{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 3px;
+  position: relative;
+  left: 40%;
+  /* top: 90px; */
+  color: black;
+}
+
+.player{
+  display: inline-block;
+ 
+  align-items: start;
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 240px;
+  height: 320px;
+  margin: 20px;
+}
+.player1{
+  width: 100%;
+}
+.name{
+  /* position: relative;
+  bottom: 20px; */
+  color: black;
+}
+.role{
+  /* position: relative;
+  bottom: 40px; */
+  color: black;
+}
+.advt{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: bisque;
+}
+
+                              /* Ram code */
+/* ram code */
+
+
+.pagelink{
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
+
+
+
+
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,14 +141,14 @@ body{
   width: 150px;
   height: 100px;
   position: relative;
-  left: 6%;
+  left: -38%;
 }
 
 
 .container .background .img2{
   position: absolute;
   width: 350px;
-  margin-left: 12%;
+  margin-left: -35%;
   top: 25%;
   height: 75vh;
   opacity: 0.4;
@@ -41,6 +163,7 @@ body{
   min-height: 65vh;
   margin-left: 100px;
   top: 30%;
+  text-align: justify;
 }
 .container .heading .head{
   padding-bottom: 15px;
@@ -49,6 +172,39 @@ body{
   text-decoration: underline;
 
 }
+.container .headingAbout .headAbout{
+ color: crimson;
+ text-align: center;
+ font-size: 40px;
+ text-decoration: underline;
+ margin: 2%;
+font-weight: bold;
+}
+
+.container .headingAbout .paraAbout {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+}
+.container .headingAbout ul li{
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 3px;
+  border-radius: 5px;
+}
+.container .headingAbout ul li:hover{
+  background-color: burlywood;
+  color: black;
+  cursor: pointer;
+}
+  
+
 .container .heading .para{
   padding-bottom: 20px;
   font-size: 18px;
@@ -71,12 +227,8 @@ body{
 }
 
 .container .image .img3{
-  margin-left: 50%;
   position: relative;
-  width:50%;
-  height: 50%;
-  /* border-radius: 300px; */
--webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+ -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
 }
 
 .container .navbar ul{
@@ -88,26 +240,24 @@ body{
   cursor: pointer;
 
 }
+
 .container .navbar ul li{
   padding: 40px;
   margin: 3%;
-  /* border: 50%;
-  border: 0.1px solid black; */
+
 
 
 }
 
 .navbar2{
-  padding: 15px 25px;
-  color: black;
+  display: flex;
+  padding: 5px 25px;
   margin: 1%;
   font-size: 1.2rem;
   font-weight: bold;
-  background-color: burlywood;
   display: inline-block;
-  border-radius: 5px;
   position: relative;
-  left: 10%;
+  right: 70%;
   text-decoration: none;
 
 }
@@ -198,20 +348,20 @@ body{
 
 
 @media screen and (max-width: 900px){
-  .container .heading{
+  /* .container .heading{
       top: 120vh;
       width: 100%;
       margin: 0;
-  }
+  } */
 
-  .container .image img{
+  /* .container .image img{
       margin: 0;
       margin-top: -30px;
       width: 650px;
       height: 400px;
-  }
+  } */
 
-  .container .background img{
+  /* .container .background img{
       position: absolute;
       width: 450px;
       margin-left: 12%;
@@ -220,8 +370,8 @@ body{
       z-index: -1;
       opacity: 0.4;
   }
-  
-  .list ol{
+   */
+  /* .list ol{
       display: flex;
       position: absolute;
       list-style: none;
@@ -235,6 +385,6 @@ body{
       right: 0;
       top: 100vh;
       list-style: none;
-  }
+  } */
 }
 
