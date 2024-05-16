@@ -2,7 +2,7 @@
 import './App.css';
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Ipl from './components/Ipl';
+
 import RcbPlayers from './components/RcbPlayers';
 import CskPlayers from "./components/CskPlayers";
 import SrhPlayers from "./components/SrhPlayers";

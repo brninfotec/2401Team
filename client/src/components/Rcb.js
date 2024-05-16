@@ -21,7 +21,7 @@ function Rcb() {
         </div>
         <div className="image">
 
-          <img className='img3' src="https://i.postimg.cc/FRjcNhCX/rcb-removebg-preview.png" alt=''></img>
+          {/* <img className='img3' src="https://i.postimg.cc/FRjcNhCX/rcb-removebg-preview.png" alt=''></img> */}
 
           <img className='img3'
            style={{width:"50%", height:"50%", marginLeft:"50%"}}
